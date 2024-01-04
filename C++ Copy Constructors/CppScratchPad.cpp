@@ -7,7 +7,16 @@ using std::string;
 // ----------------------------------- C++ Copy Constructors ------------------------------------------------
 //ref link:https://www.youtube.com/watch?v=-_uSj6lrmZ0&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=10
 
+struct Cow
+{
+	int numSteaks;
+	int numLegs;
+};
 
+void main()
+{
+
+}
 
 
 
