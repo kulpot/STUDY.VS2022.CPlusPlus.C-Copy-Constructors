@@ -7,6 +7,8 @@ using std::string;
 // ----------------------------------- C++ Copy Constructors ------------------------------------------------
 //ref link:https://www.youtube.com/watch?v=-_uSj6lrmZ0&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=10
 
+// constructing in C++ creates by default a parameterless constructors 
+
 struct Cow
 {
 	int numSteaks;
@@ -18,6 +20,7 @@ void main()
 	Cow betsy;
 	betsy.numSteaks = 100;
 	betsy.numLegs = 4;
+	cout << betsy.numSteaks << " " << betsy.numLegs << endl;
 }
 
 
