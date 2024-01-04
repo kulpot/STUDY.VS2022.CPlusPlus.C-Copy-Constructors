@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ Copy Constructors", "C++ Copy Constructors\C++ Copy Constructors.vcxproj", "{FA2CBB30-50C0-4831-A584-2BF19F185AAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA2CBB30-50C0-4831-A584-2BF19F185AAE}.Debug|x64.ActiveCfg = Debug|x64
+		{FA2CBB30-50C0-4831-A584-2BF19F185AAE}.Debug|x64.Build.0 = Debug|x64
+		{FA2CBB30-50C0-4831-A584-2BF19F185AAE}.Debug|x86.ActiveCfg = Debug|Win32
+		{FA2CBB30-50C0-4831-A584-2BF19F185AAE}.Debug|x86.Build.0 = Debug|Win32
+		{FA2CBB30-50C0-4831-A584-2BF19F185AAE}.Release|x64.ActiveCfg = Release|x64
+		{FA2CBB30-50C0-4831-A584-2BF19F185AAE}.Release|x64.Build.0 = Release|x64
+		{FA2CBB30-50C0-4831-A584-2BF19F185AAE}.Release|x86.ActiveCfg = Release|Win32
+		{FA2CBB30-50C0-4831-A584-2BF19F185AAE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82CE5431-1C08-4B8D-8C28-F6E0F32C499D}
+	EndGlobalSection
+EndGlobal
