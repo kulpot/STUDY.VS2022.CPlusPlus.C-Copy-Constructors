@@ -15,7 +15,9 @@ struct Cow
 
 void main()
 {
-
+	Cow betsy;
+	betsy.numSteaks = 100;
+	betsy.numLegs = 4;
 }
 
 
