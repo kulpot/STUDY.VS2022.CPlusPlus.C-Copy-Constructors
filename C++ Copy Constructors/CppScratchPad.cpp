@@ -11,8 +11,8 @@ using std::string;
 
 struct Cow
 {
-	int numSteaks;
-	int numLegs;
+	int numSteaks;	// 4bits
+	int numLegs;	// 4bits
 };
 
 void main()
@@ -20,9 +20,9 @@ void main()
 	Cow betsy;
 	betsy.numSteaks = 100;
 	betsy.numLegs = 4;
-	cout << betsy.numSteaks << " " << betsy.numLegs << endl;
-	Cow georgy(betsy);
-	cout << georgy.numSteaks << " " << georgy.numLegs << endl;
+	cout << "betsy " << betsy.numSteaks << " " << betsy.numLegs << endl;
+	Cow georgy(betsy);	// bitwisecopy betsy instance(8bitsdata) to georgy instance
+	cout << "georygy " << georgy.numSteaks << " " << georgy.numLegs << endl;
 }
 
 
