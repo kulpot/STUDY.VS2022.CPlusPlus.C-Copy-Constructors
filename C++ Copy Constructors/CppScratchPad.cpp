@@ -21,6 +21,8 @@ void main()
 	betsy.numSteaks = 100;
 	betsy.numLegs = 4;
 	cout << betsy.numSteaks << " " << betsy.numLegs << endl;
+	Cow georgy(betsy);
+	cout << georgy.numSteaks << " " << georgy.numLegs << endl;
 }
 
 
