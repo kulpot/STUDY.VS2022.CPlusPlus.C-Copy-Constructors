@@ -4,41 +4,77 @@ using std::cout;
 using std::endl;
 using std::string;
 
+// ----------------------------------- C++ Copy Constructors ------------------------------------------------
+//ref link:https://www.youtube.com/watch?v=-_uSj6lrmZ0&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ------------------------------------- C++ Destructors and Stack Unwinding -----------------------------------
 //ref link:https://www.youtube.com/watch?v=ljbXUQzaJBM&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=10
 
-struct Car
-{	// ----Track number of instances you have of a certain type-----
-	static int count;	// count - static variable			    //output://Car(1)
-	int id;		// id - instance variable								 //Car(2)
-	Car() { id = count++; cout << "Car(" << id << ")" << endl; }		 //~Car(2)
-	~Car() { cout << "~Car(" << id << ")" << endl; }					 //Car(3)
-																		 //~Car(3)
-																		 //~Car(1)
-	// ----Track number of instances you have of a certain type-----END
-
-	//static int count;													 
-	//Car() { cout << "Car()" << endl; }		// constructor
-	//~Car() { cout << "~Car()" << endl; }	// deconstructor
-
-
-
-
-};
-
-int Car::count = 1;
-
-void main()
-{
-	//Car car;		//output://Car()
-							 //~Car()
-
-	Car car1;	//Car(), ~ Car()						//output://Car() car1
-	{															 //Car() car2
-		Car car2;	//Car()	, //~Car()							 //~Car() car2 scope{}
-	}															 //Car() car3
-	Car car3;	//Car()	, //~Car()								 //~Car() car3 scope{}
-}																 //~Car() car1 scope{}
+//struct Car
+//{	// ----Track number of instances you have of a certain type-----
+//	static int count;	// count - static variable			    //output://Car(1)
+//	int id;		// id - instance variable								 //Car(2)
+//	Car() { id = count++; cout << "Car(" << id << ")" << endl; }		 //~Car(2)
+//	~Car() { cout << "~Car(" << id << ")" << endl; }					 //Car(3)
+//																		 //~Car(3)
+//																		 //~Car(1)
+//	// ----Track number of instances you have of a certain type-----END
+//
+//	//static int count;													 
+//	//Car() { cout << "Car()" << endl; }		// constructor
+//	//~Car() { cout << "~Car()" << endl; }	// deconstructor
+//
+//
+//
+//
+//};
+//
+//int Car::count = 1;
+//
+//void main()
+//{
+//	//Car car;		//output://Car()
+//							 //~Car()
+//
+//	Car car1;	//Car(), ~ Car()						//output://Car() car1
+//	{															 //Car() car2
+//		Car car2;	//Car()	, //~Car()							 //~Car() car2 scope{}
+//	}															 //Car() car3
+//	Car car3;	//Car()	, //~Car()								 //~Car() car3 scope{}
+//}																 //~Car() car1 scope{}
 
 
 
