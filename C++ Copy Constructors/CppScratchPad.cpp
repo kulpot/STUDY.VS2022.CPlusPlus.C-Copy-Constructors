@@ -11,8 +11,8 @@ using std::string;
 
 struct Cow
 {
-	int numSteaks;	// 4bits
-	int numLegs;	// 4bits
+	int numSteaks;	// 4bytes
+	int numLegs;	// 4bytes
 };
 
 void main()
